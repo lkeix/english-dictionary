@@ -1,0 +1,18 @@
+//
+//  ResisterViewController.h
+//  Englishdictionary
+//
+//  Created by 中村圭助 on 2019/03/22.
+//  Copyright © 2019年 中村圭助. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "TouchEvent.h"
+#import "RootViewController.h"
+
+@interface ResisterViewController : UIViewController
+@property (nonatomic) NSString* section;
+@property IBOutlet UITextField* tf;
+@property UITextView* tv;
+@property NSArray* items;
+@end

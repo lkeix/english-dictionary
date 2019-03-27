@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DeleteViewController.h
 //  Englishdictionary
 //
 //  Created by 中村圭助 on 2019/03/22.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RootViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface DeleteViewController : UIViewController
 
 @end
-

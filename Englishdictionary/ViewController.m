@@ -15,6 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    [self definenav];
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -25,5 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void) definenav{
+    RootViewController *rootViewController = [[RootViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+}
 @end

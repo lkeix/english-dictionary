@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  Englishdictionary
 //
 //  Created by 中村圭助 on 2019/03/22.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RootViewController.h"
+#import "Trasision.h"
 
-@interface ViewController : UIViewController
-
-
+@interface DetailViewController : UIViewController
+@property Trasision* trasision;
+@property UIScrollView *sv;
 @end
-
